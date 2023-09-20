@@ -1,0 +1,38 @@
+#display{
+    color: black;
+    background-color: white;
+    width: 25rem;
+    height: 5rem;
+}
+.addatend{    
+display: flex;
+justify-content: center;
+margin-top: 10px;
+gap: 2px;
+}
+.array{
+    text-align: center;
+}
+#addon{
+    width: 12rem;
+    height: 3.3rem;
+    
+}
+#inputtoadd{  
+    width: 12rem;
+    height: 3rem;
+}
+
+#removeon{
+    width: 24.7rem;
+    height: 3.3rem;
+    
+}
+#indexToFind{
+    width: 12rem;
+    height: 3rem;
+}
+#findButton{
+    width: 12rem;
+    height: 3.3rem;
+}

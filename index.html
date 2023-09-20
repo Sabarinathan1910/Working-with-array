@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="array">
+        <div class="display">
+            <h1>Working with arrays</h1>
+            <button id="display"></button>
+        </div>
+        <div class="addatend">
+            <input type="text" id="inputtoadd" placeholder="enter element to add at end">
+            <button id="addon" onclick="addElement">add element to the end(push)</button>
+        </div>
+        <div class="removeatfront">
+            <button id="removeon" onclick="removeElement()">remove element front(shift)</button>
+        </div>
+        <div class="findindex">
+            <input type="text" id="indexToFind" placeholder="enter index to find">
+            <button id="findButton" onclick="findElementByIndex()">Find Element by Index</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
