@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Working with Arrays</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -12,22 +12,34 @@
     <div class="array">
         <div class="display">
             <h1>Working with arrays</h1>
-            <button id="display"></button>
+            <button id="display">Click to display array</button>
         </div>
         <div class="addatend">
             <input type="text" id="inputtoadd" placeholder="enter element to add at end">
-            <button id="addon" onclick="addElement">add element to the end(push)</button>
+            <button id="addon">Add element to the end (push)</button>
         </div>
         <div class="removeatfront">
-            <button id="removeon" onclick="removeElement()">remove element front(shift)</button>
+            <button id="removeon">Remove element from front (shift)</button>
         </div>
         <div class="findindex">
-            <input type="text" id="indexToFind" placeholder="enter index to find">
-            <button id="findButton" onclick="findElementByIndex()">Find Element by Index</button>
+            <input type="number" id="indexToFind" placeholder="enter index to find">
+            <button id="findButton">Find Element by Index</button>
+        </div>
+        <div class="results">
+            <h2>Results:</h2>
+            <div id="resultContainer"></div>
+        </div>
+        <div class="sort">
+            <button id="sortArray">Sort Array</button>
+        </div>
+        <div class="filternumbers">
+            <button id="filterNumbers">Filter Numbers</button>
+        </div>
+        <div class="reversestring">
+            <button id="reverseString">Reverse String</button>
         </div>
     </div>
     <script src="script.js"></script>
-
 </body>
 
 </html>

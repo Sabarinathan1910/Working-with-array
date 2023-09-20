@@ -1,8 +1,13 @@
 #display{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     width: 25rem;
     height: 5rem;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 .addatend{    
 display: flex;
@@ -12,27 +17,49 @@ gap: 2px;
 }
 .array{
     text-align: center;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 #addon{
     width: 12rem;
     height: 3.3rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
     
 }
 #inputtoadd{  
     width: 12rem;
     height: 3rem;
+    margin-top: 10px;
+
 }
 
-#removeon{
+#removeon,#sortArray,#filterNumbers,#reverseString{
     width: 24.7rem;
     height: 3.3rem;
-    
+    margin-top: 10px;   
+    border-radius: 10px;
+    background-color: black;
+    color: white;
 }
 #indexToFind{
     width: 12rem;
     height: 3rem;
+    margin-top: 10px;
+
 }
 #findButton{
     width: 12rem;
     height: 3.3rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+#sortArray,#filterNumbers,#reverseString{
+    margin-top: 20px;   
 }
