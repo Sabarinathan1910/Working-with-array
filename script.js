@@ -77,4 +77,3 @@ document.getElementById("reverseString").addEventListener("click", function () {
 
     updateDisplay();
 });
-updateDisplay();
