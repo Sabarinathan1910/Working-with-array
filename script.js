@@ -17,12 +17,12 @@ addButton.addEventListener("click", function () {
     if (inputValue) {
         a.push(inputValue);
         updateDisplay();
-        inputToAdd.value = ""; // Clear the input field
+        inputToAdd.value = ""; // Clear
     }
 });
 
 function removeElement() {
-    // Use shift() to remove the first element of the array
+    // to remove the first element
     a.shift();
     updateDisplay();
 }
@@ -34,19 +34,15 @@ function findElementByIndex() {
 
     if (indexToFind >= 0 && indexToFind < a.length) {
         let foundElement = a[indexToFind];
-
-        // Create a new button element to display the result
         let resultButton = document.createElement("button");
         resultButton.textContent = foundElement;
-
-        // Append the result button to the result container
+        // Append the result
         resultContainer.appendChild(resultButton);
     } else {
-        // Display an error message in the result container
         resultContainer.textContent = "Please enter a valid index.";
     }
 
-    // Display the array in the 'display' element
+    // Display the array
     updateDisplay();
 }
 
@@ -54,7 +50,7 @@ document.getElementById("findButton").addEventListener("click", findElementByInd
 
 document.getElementById("sortArray").addEventListener("click", function () {
     a.sort(function (a, b) {
-        // Compare elements regardless of data type
+        // Compare various data type
         return String(a).localeCompare(String(b));
     });
 
@@ -81,3 +77,4 @@ document.getElementById("reverseString").addEventListener("click", function () {
 
     updateDisplay();
 });
+updateDisplay();
